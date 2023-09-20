@@ -52,7 +52,7 @@ namespace WindowsForm_CSV_Reader
 
         private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-         
+
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -78,7 +78,7 @@ namespace WindowsForm_CSV_Reader
         {
             btnAdd.Visible = false;
             List<DataModel> data = dataGridView1.DataSource as List<DataModel>;
-            SavaDataInDb(data);        
+            SavaDataInDb(data);
         }
 
         private void btnGetFromDb_Click(object sender, EventArgs e)
