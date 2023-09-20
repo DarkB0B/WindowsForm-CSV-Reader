@@ -38,7 +38,7 @@
             // btnLoad
             // 
             btnLoad.BackColor = SystemColors.ActiveCaption;
-            btnLoad.Location = new Point(1262, 12);
+            btnLoad.Location = new Point(1089, 12);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(95, 39);
             btnLoad.TabIndex = 0;
@@ -70,7 +70,7 @@
             // btnGetFromDb
             // 
             btnGetFromDb.BackColor = SystemColors.ActiveCaption;
-            btnGetFromDb.Location = new Point(1385, 12);
+            btnGetFromDb.Location = new Point(1228, 12);
             btnGetFromDb.Name = "btnGetFromDb";
             btnGetFromDb.Size = new Size(101, 39);
             btnGetFromDb.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1506, 490);
+            ClientSize = new Size(1371, 445);
             Controls.Add(btnGetFromDb);
             Controls.Add(btnAdd);
             Controls.Add(dataGridView1);
