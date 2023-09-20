@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,12 +9,14 @@ namespace WindowsForm_CSV_Reader.Models
 {
     public class DataModel
     {
+
         [Name("zdjecie")]
         public string Main_Picture { get; set; }
 
         [Name("zdjęcie")]
         public string Pictures { get; set;}
 
+        [Key]
         [Name("KOD")]
         public string ID_KARTOTEKI { get; set; }
 
